@@ -5,7 +5,9 @@ const app = new Vue (
             message : '',
         },
         methods : {
-
+             updateImageSrc ( source ){
+                this.ImageSrc = source;
+             }
         },
 
         
