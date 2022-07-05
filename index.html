@@ -16,7 +16,8 @@
                 {{ message }}
             </h3>
            <input type="text" v-model="message">
-           <img src="imageSrc" alt="">
+           <!-- <img src="imageSrc" alt="message"> -->
+           <a href="#root" class="btn btn-primary btn-lg" #click.prevent="updateImageSrc(message)">click</a>
         </div>
 
     </div>
